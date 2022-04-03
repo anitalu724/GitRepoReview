@@ -1,0 +1,38 @@
+.Navbar{
+    background-color: #0d1117;
+    border-bottom:1pt solid darkgray;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    margin:0;
+    /* border:yellow solid 1px; */
+}
+
+.NavContainer{
+    display: flex;
+    
+    width: 100%;
+    /* justify-content: space-around; */
+    /* border: pink solid 1px; */
+}
+h3{
+    color: darkgray;
+    /* display: inline; */
+    /* text-align: right; */
+    /* float: right; */
+    /* border:#61dafb solid 1px; */
+}
+img{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+.userInfo{
+    justify-content: center;
+    color: darkgray;
+}
+.userInfo span{
+    font-weight: bold;
+    color:white;
+}

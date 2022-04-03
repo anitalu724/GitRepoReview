@@ -1,0 +1,107 @@
+*{
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+}
+.RepoList{
+    margin: 0;
+    background-color: #0d1117;
+    /* width: 100%;
+    max-height: 800px; */
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+.Container{
+    /* margin:10; */
+    /* padding-top: 1%; */
+    /* border:red 1px solid; */
+    width:auto;
+    height: auto;
+}
+.wrapper {
+    padding:100px;
+    /* border:#61dafb solid 1px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .content_container{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    /* border:blue solid 1px; */
+  }
+
+  .repoList{
+    width: 100%;
+    display: inline;
+    margin-top: 5%;
+    /* border:yellow solid 3px; */
+    
+    
+  }
+    .repo{
+      width: 90%;
+      border: solid darkgray 1px;
+      border-radius: 5px;
+      margin:3% 5%;
+      padding:10px;
+      text-align: left;
+      display: flex;
+    }
+    
+      .repoName{
+        color: darkgray;
+        width: 95%;
+        display: inline;
+        font-size:x-large;
+        
+        /* border: #58a6ff 1px solid; */
+      }
+      .repoName p{
+        color: darkgray;
+        margin-top: 2%;
+        margin-left: 3%;
+        font-size: medium;
+      }
+      .link{
+        padding-left: 8px;
+        cursor: pointer;
+        color: #58a6ff;
+        font-weight: bold;
+        font-size: medium;
+        text-decoration: none;
+      }
+      .link:hover{
+        text-decoration: underline;
+        color: #58a6ff;
+      }
+      .infoBlock{
+        width: 5%;
+        /* display: inline;
+        text-align: right; */
+        font-size: 16px;
+        /* border: pink 1px solid; */
+        color: darkgray;
+      }
+      .info{
+        display: flex;
+        align-items: center;
+        
+        /* border: #58a6ff 1px solid; */
+      }
+      .infoBlock p{
+
+        margin-top:30%;
+        margin-left:30%;
+        font-size: 16px;
+        font-weight: lighter;
+        color: darkgray;
+        justify-content: right;
+        vertical-align: bottom;
+      }
+      .infoIcon{
+        font-weight: bold;
+        font-size: 16px;
+        justify-content: left;
+      }
