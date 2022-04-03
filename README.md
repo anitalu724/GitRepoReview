@@ -9,8 +9,13 @@
 * To a single repository
 [http://wp.ee.ntu.edu.tw:9724/users/{username}/repos/{repo}](http://wp.ee.ntu.edu.tw:9724/users/{username}/repos/{repo})
 
+```
+bash build.sh
+bash docker_start.sh
+```
 
-## Local
+
+## Development
 ```
 git clone https://github.com/anitalu724/GitRepoReview.git
 yarn
